@@ -1,0 +1,124 @@
+body {
+    
+    color:#fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:#262626;
+    
+    
+   
+}
+h1{
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    font-size:14px;
+    line-height: 28px;
+   
+}
+h2{
+    color: white;
+}
+.wrapper h2 {
+    font-size:30px;
+    text-transform: uppercase;
+    margin-bottom:15%;
+    text-align:left;
+    
+}
+
+
+.wrapper img {
+    width:100%;
+    border-radius:40px;
+}
+
+.img-area {
+    width:40%;
+    float: left;
+
+}
+
+.skills-area {
+    width: 55%;
+    position: relative;
+    border: 5px solid rgb(125, 133, 133);
+    margin-left: 225px;
+    box-shadow: 10px 10px 15px darkgray;
+    border-radius: 15px;
+    padding: 0px 19px;
+    margin-top: 50px;
+}
+
+.box {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.box li {
+    margin-bottom:50px;
+    height:35px;
+
+}
+
+.box li b {
+    position: relative;
+    top:-40px;
+    font-size:20px;
+}
+
+.line {
+    height:5px;
+    margin:2px 0;
+    background:cyan;
+    position: absolute;
+}
+
+.box1  {
+    width:90%;
+    animation:box1 2s ease-out;
+}
+
+.box2  {
+    width:90%;
+    animation:box2 2s ease-out;
+}
+
+
+.box3  {
+    width:50%;
+    animation:box3 2s ease-out;
+}
+
+@keyframes box1 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes box2 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes box3 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:50%;
+    }
+}
+
